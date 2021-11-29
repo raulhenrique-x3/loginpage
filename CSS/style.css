@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url(../Imagens/Nuvens.png);
+    background-size: cover;
+    background-color: rgb(67, 169, 253);
+    font-family: sans-serif, cursive;
+    color: white;
+}
+
+.login-pg h1{
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.login-pg{
+    margin-top: 15%;
+    display: grid;
+    grid-gap: 4px;
+    justify-content: center;
+    background-image: linear-gradient(white, rgb(67, 233, 255));
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.login-pg input[type="text"], .login-pg input[type="password"]{
+    border: 0;
+    background: none;
+    text-align: center;
+    border: 2px solid rgb(83, 157, 255);
+    padding: 10px 10px;
+    outline: none;
+    color: rgb(27, 27, 27);
+    border-radius: 15px;
+    transition: 1s;
+}
+
+.login-pg input[type="submit"]{
+    border: 0;
+    background: none;
+    text-align: center;
+    border: 2px solid rgb(83, 157, 255);
+    margin: 10px auto;
+    padding: 5px 40px;
+    outline: none;
+    color: black;
+    border-radius: 10px;
+    transition: 1s;
+    cursor: pointer;
+}
